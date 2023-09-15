@@ -1,9 +1,60 @@
 body {
     height: 100vh;
     min-height: 100vh;
+    margin: 0;
 }
 
-img {
-    width: 380px;
+/* images */
+
+#canoe-dad {
+    width: 290px;
 }
 
+#logo-img {
+    width: 130px;
+}
+
+/* beginning of the hero */
+
+.hero {
+    background-color: #1f2937;
+    margin: auto;
+    padding: 35px;
+}
+
+.header {
+    display: flex; 
+    justify-content: space-between;  
+    align-items: center; 
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-flavor {
+    display: flex;
+    flex-direction: column;
+}
+
+/* #canoe-dad {
+    width: 290px;
+}
+
+#logo-img {
+    max-width: 130px;
+} */
