@@ -11,30 +11,31 @@ body {
 /* hero images */
 
 #canoe-dad {
-    width: 190px;
-    margin: 20px;
+    width: 290px;
     border: 10px solid white;
+    filter: drop-shadow(10px 10px 5px black);
 }
 
 #logo-img {
     width: 180px;
     display: flex;
     align-self: center;
+    padding: 8px;
 }
 
 /* beginning of the hero */
 
 .hero {
     background-color: #1f2937;
-    padding: 48px;
-
+    padding: 48px
 }
 
 .header {
     display: flex; 
-    justify-content: space-around;  
+    justify-content: space-between;  
     align-items: center; 
     flex-wrap: wrap;
+    margin: ;
 }
 
 .header-links {
@@ -53,12 +54,11 @@ body {
 
 .header-main {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
     flex-shrink: 0;
+    gap: 12px;
 }
 
 .header-flavor {
