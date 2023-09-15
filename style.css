@@ -1,39 +1,51 @@
+/* * {
+    border: black solid 1px;
+} */
+
 body {
     height: 100vh;
     min-height: 100vh;
-    margin: 0;
+    margin: 0px;
 }
 
-/* images */
+/* hero images */
 
 #canoe-dad {
-    width: 290px;
+    width: 190px;
+    margin: 20px;
+    border: 10px solid white;
 }
 
 #logo-img {
-    width: 130px;
+    width: 180px;
+    display: flex;
+    align-self: center;
 }
 
 /* beginning of the hero */
 
 .hero {
     background-color: #1f2937;
-    margin: auto;
-    padding: 35px;
+    padding: 48px;
+
 }
 
 .header {
     display: flex; 
-    justify-content: space-between;  
+    justify-content: space-around;  
     align-items: center; 
+    flex-wrap: wrap;
 }
 
 .header-links {
     display: flex;
     gap: 20px;
+    flex-shrink: 1;
+    flex-wrap: wrap;
+    list-style-type: none;
 }
 
-a {
+.link {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
@@ -41,20 +53,48 @@ a {
 
 .header-main {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    flex-shrink: 0;
 }
 
 .header-flavor {
     display: flex;
     flex-direction: column;
+    flex: 0;
+    gap: 0px;
+    flex-shrink: 0;
+    flex-basis: 380px;
+}
+.sign-up-button {
+    align-self: flex-start;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px;
+}
+.sign-up-button:hover {
+    background-color: #acaafd;
+    cursor: pointer;
+}
+#hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+    padding: 8px;
+
 }
 
-/* #canoe-dad {
-    width: 290px;
-}
-
-#logo-img {
-    max-width: 130px;
-} */
+#hero-body-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 0;
+    padding: 8px;
+}   
