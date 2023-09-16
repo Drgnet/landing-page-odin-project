@@ -30,16 +30,10 @@ body {
 
 .hero-header {
     background-color: #1f2937;
-    /* max-width: 800px; */
     display: flex;
     flex-wrap: wrap;
-    padding: 48px;
-    /* padding-left: 200px;
-    padding-right: 200px; */
+    padding-bottom: 48px;
     flex: 1;
-    /* justify-content: space-between; */
-    /* align-content: center; */
-
 }
 
 .header {
@@ -70,8 +64,6 @@ body {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* flex-wrap: wrap; */
-    /* flex-shrink: 0; */
     gap: 12px;
     padding: 8px;
 }
@@ -119,3 +111,6 @@ body {
     flex-shrink: 0;
 
 }   
+
+/* start of photo section */
+
