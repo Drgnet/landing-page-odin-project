@@ -126,3 +126,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.photo-section div {
+    border: 5px solid black;
+}
