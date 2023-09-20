@@ -114,3 +114,15 @@ body {
 
 /* start of photo section */
 
+.photo {
+    width: 250px;
+}
+
+.photo-section {
+    display: flex;
+    flex: 1;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
