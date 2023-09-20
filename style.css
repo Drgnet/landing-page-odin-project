@@ -66,6 +66,7 @@ body {
     align-items: center;
     gap: 12px;
     padding: 8px;
+    flex-wrap: wrap;
 }
 
 .header-flavor {
@@ -114,19 +115,35 @@ body {
 
 /* start of photo section */
 
+.picture-header {
+    text-align: center;
+}
+
 .photo {
-    width: 250px;
+    width: 150px;
+    border-radius: 10%;
+    border: 3.5px solid #3882f6;
 }
 
 .photo-section {
     display: flex;
     flex: 1;
-    /* flex-direction: column; */
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-self: center;
 }
 
-.photo-section div {
-    border: 5px solid black;
+.photo-tile {
+    display: flex;
+    justify-content: center;
+    flex: 0;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.photo-tile p {
+    justify-content: center;
+    flex: auto;
+    text-align: center;
 }
