@@ -28,12 +28,18 @@ body {
 
 /* beginning of the hero */
 
+/* .hero {
+    background-color: #1f2937;
+    width: 100%;
+} */
+
 .hero-header {
     background-color: #1f2937;
     display: flex;
     flex-wrap: wrap;
     padding-bottom: 48px;
     flex: 1;
+    width: auto;
 }
 
 .header {
@@ -120,9 +126,10 @@ body {
 }
 
 .photo {
-    width: 190px;
+    width: 140px;
     border-radius: 10%;
     border: 3.5px solid #3882f6;
+    filter: drop-shadow(10px 10px 5px #dccfc7);
 }
 
 .photo-section {
@@ -148,4 +155,42 @@ body {
     justify-content: center;
     flex: auto;
     text-align: center;
+}
+
+/* Quote Section */
+
+.quote-section {
+    display: flex;
+    flex: 0;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    width: 100%;
+    align-items: center;
+}   
+
+.full-quote {
+    max-width: 1000px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.quote-section .quote {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    flex: 0;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.quote-section .author {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex: 1;
+    /* padding: 48px; */
 }
