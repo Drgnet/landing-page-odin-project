@@ -10,7 +10,10 @@ body {
     align-items: center;
 }
 
-/* hero images */
+a {
+    color: #1f2937;
+}
+/* Hero items, and buttons */
 
 #canoe-dad {
     width: 250px;
@@ -26,12 +29,22 @@ body {
     margin-left: auto;
 }
 
-/* beginning of the hero */
+.button {
+    background-color: #3882f6;
+    color: #eee;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px;
+    margin: 8px;
+    width: 108px;
+}
+.button:hover {
+    background-color: #8c8aff;
+    cursor: pointer;
+}
 
-/* .hero {
-    background-color: #1f2937;
-    width: 100%;
-} */
+/* beginning of the hero */
 
 .hero-header {
     background-color: #1f2937;
@@ -83,22 +96,12 @@ body {
     flex-basis: 420px;
     padding: 8px;
 }
-.sign-up-button {
+.hero-button {
     align-self: flex-start;
-    background-color: #3882f6;
-    color: #20241c;
-    border-radius: 10px;
     border: none;
-    text-align: center;
-    text-decoration: none;
     font-size: 18px;
-    padding: 12px;
-    margin: 8px;
 }
-.sign-up-button:hover {
-    background-color: #acaafd;
-    cursor: pointer;
-}
+
 #hero-main-text {
     font-size: 48px;
     color: #f9faf8;
@@ -172,6 +175,7 @@ body {
     max-width: 1000px;
     padding-left: 48px;
     padding-right: 48px;
+    margin: 48px;
 }
 
 .quote-section .quote {
@@ -192,5 +196,64 @@ body {
     align-items: flex-start;
     justify-content: flex-end;
     flex: 1;
-    /* padding: 48px; */
+    font-size: 18px;
+}
+
+/* Call to action */
+
+.call-to-action-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 48px;
+}
+
+.newsletter-signup-banner {
+    background-color: #3882f6;
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    border-radius: 5px;
+    min-width: none;
+    max-width: 1000px;
+}
+
+.cta-button {
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+.newsletter-button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-left: 48px;
+}
+
+.newsletter-text {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    flex-wrap: wrap;
+    flex: 2;
+    max-width: 420px;
+}
+
+/* Start of footer  */
+
+.footer {
+    display: flex;
+    flex: 0;
+    flex-direction: column;
+    background-color: #1f2937;
+    width: 100%;
+    align-items: center;
+}
+
+.footer-text {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin: 20px;
 }
